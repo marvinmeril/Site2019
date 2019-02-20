@@ -53,9 +53,9 @@ margin-right: 20px;
     width: 100%;
     max-width: 100%;
     position: relative;
-}
+    }
 
-.ban image {width:100%;
+.ban img {width:100%;
     max-width:100%;}
 
 .inner-banner {position: absolute;
@@ -85,6 +85,8 @@ box-shadow: none;
 background-color: #3B0AFF;
 
 }
+
+h1 {font-size: 50px;}
 /* about */
 
 
