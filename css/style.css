@@ -1,3 +1,94 @@
 @charset "utf-8";
 
 /* font-family: 'Ubuntu', sans-serif; */
+
+body, html { padding: 0;
+
+margin: 0;}
+
+body { font-family: 'Ubuntu', sans-serif;}
+
+a,a:hover {text-decoration: none;}
+
+
+/* header */
+.header {
+    background-color: #3B0AFF;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+.menu a {
+    color: #ffffff;
+margin-right: 20px;
+}
+
+.menu a:hover {
+
+    color:#020419;
+}
+
+.container-fluid {
+    padding: 0;
+}
+/* banner */
+
+.banner {
+    width: 100%;
+    max-width:100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban image {width:100%;
+    max-width:100%;}
+
+.inner-banner {position: absolute;
+top:30%;
+width: 100%;
+text-align: center;}
+
+
+.inner-banner h1 {
+    text-shadow: 1px 1px 20px #000000;
+}
+  
+.inner-banner .btn-custom {
+    background-color: #3B0AFF;
+    color: #ffffff;
+
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #020419;
+}
+
+.separator { height: 3px;
+width: 5%;
+border:none;
+box-shadow: none;
+background-color: #3B0AFF;
+
+}
+/* about */
+
+
+/* playlist */
+
+/* contact */
+
